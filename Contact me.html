@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> My Contact details</title>
+</head>
+
+<body>
+  <h1>Contact me</h1>
+  <h3>7011629460</h3>
+  <h3> <a href="https://www.instagram.com/" target="_blank">instagram</a></h3>
+  <h3><a href="https://www.youtube.com/channel/UC2gTt-HNPJgi4_LMRZIgmKg" target="_blank">You Tube</a></h3>
+  <h3>rishisahilcomputer@gmail.com</h3>
+  <form action="mailto:rishisahilcomputer@outlook.com" method="post" enctype="text/plain">
+    <label for="text">Name</label>
+    <input type="text" name="id" required value=""><br>
+    <label for="text">Last name</label>
+    <input type="text" name="id" required value="">
+    <fieldset>
+      <legend>Gender</legend>
+      <p>Male <input type="radio" name="Gender" required value="">
+        female <input type="radio" name="Gender" required value=""> </p>
+    </fieldset>
+    <p>Address <textarea name="address" rows="8" cols="80"></textarea> </p>
+    <p>Email:<input type="email" name="Email"required value=""> </p>
+    <label for="password">password</label>
+    <input type="password" name="password"required value="">
+    <p>area code:<input type="number" name="number"required value=""> </p>
+    <h3>Payment Information</h3>
+    <p>Card type
+      <select class="card type" name="card type"required >
+        <option value=>--select a Card type--</option>
+        <option value="VISA">VISA</option>
+        <option value="BHIM UPI">BHIM UPI</option>
+        <option value="Paypal">Paypal</option>
+        <option value="Master card">Master Card</option>
+      </select>
+    </p>
+    <table>
+      <tr>
+        <td>
+          <p>card number:<input type="number" name="card number"required value=""> </p>
+        </td>
+        <td>
+          <p>card Expiration:<input type="date" name="card Expiration"required value=""> </p>
+        </td>
+        <td>
+          <p>CVV:<input type="password" name="CVV number"required value=""> </p>
+        </td>
+      </tr>
+    </table>
+    <input type="submit" name="paynow" value=">
+  </form>
+</body>
+
+</html>
